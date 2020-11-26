@@ -12,6 +12,7 @@ import burgerBuilderReducer from "./store/reducers/burgerBuilder";
 import orderReducer from "./store/reducers/order";
 import authReducer from "./store/reducers/auth";
 
+import { watchAuth } from "./store/sagas/index";
 import { logoutSage } from "./store/sagas/auth";
 
 const composeEnhancers =
